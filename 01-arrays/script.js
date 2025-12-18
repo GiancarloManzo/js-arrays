@@ -20,6 +20,8 @@ console.log("4 firstTeacher rimosso :=", firstTeacher);
 console.log("array dopo shift :=", teachers);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push("Vanessa");
+console.log("5)dopo push:=", teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
