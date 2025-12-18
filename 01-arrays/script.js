@@ -3,14 +3,16 @@ console.log("Teachers:", teachers);
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 const fourthTeacher = teachers[3];
-console.log("1) FourthTeacher:", fourthTeacher);
+console.log("1) FourthTeacher:=", fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 teachers[4] = "Patrick";
-console.log("2) dopo sostituzione=", teachers);
+console.log("2) dopo sostituzione:=", teachers);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+const lastTeacher = teachers.pop();
+console.log("3) lastTeacher rimosse:=", lastTeacher);
+console.log("array dopo pop :=", teachers);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
